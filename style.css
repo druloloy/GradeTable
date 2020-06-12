@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html, body{
+    background-color: #f1f1f1;
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    width:100%;
+    height:100%;
+}
+.schoolyear-container{
+    margin:3%;
+    width: 90%;
+    font-size: 18px;
+}
+select{
+    font-size: 15px;
+    background-color: lightgray;
+}
+.grades-table-container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+table{
+    border-collapse: collapse;
+    width: 90vw;
+}
+table th,td{
+    padding: 5px;
+}
+table tr{
+    padding: 20px;
+}
+table tr:nth-child(odd){
+    background-color:lightblue ;
+}
+
+table td:nth-child(1),
+table td:nth-child(2){
+    text-align:left;
+}
+table td:nth-child(3),
+table td:nth-child(4),
+table td:nth-child(5){
+    text-align: center;
+}
+table tr:last-child{
+    font-weight: bold;
+}
+table tr:last-child td:nth-child(1){
+    text-align: right;
+}
+table tr:last-child td:nth-child(2){
+    text-align: center;
+}
+
+.update{
+    width: 90%;
+    padding: 15px;
+    text-align: right;
+}
+.legend{
+    width:90%;
+    margin:5%;
+}
+.legend ul{
+    list-style-type: none;
+}
+.legend p{
+    margin-top: 25px;
+}
